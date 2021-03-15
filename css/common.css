@@ -1,0 +1,3972 @@
+/* - SP Small - */
+@media (min-width: 200px) {
+
+  /* general */
+  html {
+    color: #4b4b4b;
+    width: 100%;
+    font-size: 9px;
+    height: 100%;
+  }
+  body {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    margin: 0 auto;
+    margin-bottom: 0;
+    position: relative;
+    height: 100%;
+    user-select:none;
+  }
+  #wrap {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  a, a:visited {
+    color: #1a0dab;
+    text-decoration: none;
+  }
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  }
+  input:focus {
+    outline: none;
+  }
+  ::selection {
+    background: #fff;
+    color: #4b4b4b;
+  }
+  ::-moz-selection {
+    background: #fff;
+    color: #4b4b4b;
+  }
+
+  /* - header - */
+  #header {
+    display: flex;
+    justify-content: flex-end;
+    width: 83.8%;
+    margin: auto;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+  }
+  #header .flex_item {
+    margin-top: 0.9rem;
+  }
+  #header .flex_item:first-child {
+    color: #4b4b4b;
+    margin-right: auto;
+    line-height: 4.3rem;
+    font-size: 1.445rem;
+    font-weight: 500;
+  }
+  #header .flex_item:nth-child(3) {
+    margin-left: 0.8rem;
+  }
+  #header .flex_item:last-child {
+    margin-left: 1.199rem;
+  }
+  #header .flex_item .icon {
+    width: 3.847rem;
+  }
+  #header .flex_item a img[alt="mypage"] {
+    margin-right: -0.68rem;
+  }
+
+  /* - main - */
+  #main {
+    width: 83.7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  /* -- index -- */
+  #index_title, #products {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #index_title h1 {
+    font-size: 7.57rem;
+    font-weight: 800;
+    margin-top: 6.51rem;
+    margin-bottom: 1.29rem;
+    text-align:  center;
+  }
+  #index_title h2 {
+    font-size: 2.056rem;
+    margin-top: 1.23rem;
+    font-weight: 400;
+    font-family:'Times New Roman';
+    text-align: center;
+    letter-spacing: 0.001rem;
+    width: 18rem;
+    margin: auto;
+  }
+  #products {
+    margin-top: 2.8rem;  
+    position: relative;
+  }
+  #products h2 {
+    margin-top: 2.9rem;
+    font-size: 1.834rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.19px;
+  }
+  #products #cat_id {
+    font-family:'Times New Roman',Century,'HG明朝E','ヒラギノ明朝 Pro W3','Yu Mincho', serif;
+    font-size: 1.58rem;
+    margin-top: 1.8rem;
+    background-color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+    padding-bottom: 0.2rem;
+    padding-left: 0.2rem;
+    width: 12rem;
+    color: #4b4b4b;
+    outline: none;
+    background-image: url('../icon/arrow_down.svg');
+    background-size: 0.944rem;
+    background-position: right 0.2rem top 0.49rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    line-height: 1.77rem;
+  }
+  #products .select_box {
+    width: 12rem;
+    margin-left:  auto;
+    margin-right:  auto;
+    margin-bottom: 2.96rem;
+    border-bottom: 2px solid #4b4b4b;
+  }
+  #products #cat_id:focus {
+    outline: none;
+  }
+  #products #cat_id option {
+    text-align: center;
+  }
+  #products .prompt {
+    margin-top: 2.6rem;
+    font-size: 1.28rem;
+    font-weight: 500;
+    text-align: center;
+    width: 21rem;
+    margin: auto;
+  }
+  #products .prompt p {  
+    line-height: 2rem;
+  }
+  #products #pro_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* -- contents_center -- */
+  #product_title h2, #product p {
+    text-align: center;
+  }
+  #product_title {
+    margin-top: 4.3rem;
+    margin-bottom: 3rem;
+  }
+  #product_title h2 {
+    font-size: 2.93rem;
+    font-weight: 600;
+  }
+  #product .product_container {
+    flex-wrap: wrap;
+    display: flex;
+    width: 23rem;
+    margin: auto;
+  }
+  #product .product_container .left {
+    margin-right:  auto;
+    margin-left:  auto;
+  }
+  #product .product_container .left .img img {
+    display: inline-block;
+    margin: auto;
+    width: 18rem;
+  }
+  #product .product_container .right {
+    margin:  auto;
+  }
+  #product .product_container .right .name {
+    font-size: 2.1rem;
+    letter-spacing: -1px;
+    font-weight: 600;
+    margin-top: 2.4rem;
+  } 
+  #product .product_container .right .price {
+    font-size: 1.9445rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+  } 
+  #product .submit {
+    margin-top: 3.8rem;
+  }
+  #product .submit .button {
+    margin-bottom: 2.45rem;
+  }
+  #product .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.4rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.6rem;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    border-radius: 0.34rem;
+    line-height: 1.3rem;
+  }
+  #product .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+  #product .submit .button input {
+    color: #4b4b4b;
+    font-size: 1.39rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.6rem;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    border-radius: 0.4rem;
+    line-height: 1.3rem;
+  }
+  #contents_center .message_container .message {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-top: 15.4rem;
+  }
+  #contents_center .message_container_done .message {
+    text-align: center;
+    font-size: 2.055rem;
+    margin-top: 13rem;
+  }
+  #contents_center .message_container_done .message_sub_container {
+    margin-top: 3rem;
+    margin-bottom: 3.98rem;
+  }
+  #contents_center .message_container_done .message_sub_container .message_sub_1st {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.3rem;
+  }
+  #contents_center .message_container_done .message_sub_container .message_sub_2nd {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.3rem;
+  }
+  #contents_center .message_container_done .message_sub_container .message_sub_3rd {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.96rem;
+    margin-bottom: 4.5rem;
+  }
+  #contents_center .submit {
+    margin-top: 3.68rem;
+  }
+  #contents_center .submit .button {
+    margin-bottom: 3.5rem;
+    text-align: center;
+  }
+  #contents_center .submit_mod_done .button {
+    margin-bottom: 1.68rem;
+    text-align: center;
+  }
+  #contents_center .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.3rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.68rem;
+    padding-right: 0.74rem;
+    padding-left: 0.74rem;
+    border-radius: 0.4rem;
+    line-height: 1.3rem;
+  }
+  #contents_center .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+
+  /* -- form -- */
+  #form_title {
+    margin-top: 3.89rem;
+    margin-bottom: 3.79rem;
+  }
+  #form_title h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+  }
+  #form_login_title {
+    margin-top: 4.6rem;
+    margin-bottom: 4.2rem;
+  }
+  #form_login_title h2 {
+    font-size: 3.43rem;
+    font-weight: 600;
+  }
+  #mypage_title {
+    margin-top: 4.93rem;
+    margin-bottom: 3.99rem;
+  }
+  #mypage_title h2 {
+    font-size: 3.44rem;
+    font-weight: 600;
+  }
+  #cartlook_title {
+    margin-top: 5.1rem;
+    margin-bottom: 6.2rem;
+  }
+  #cartlook_title h2 {
+    font-size: 3.4rem;
+    font-weight: 600;
+  }
+  #login_failed_message .message {
+    font-size: 1.298rem;
+    color: #ff0000;
+    font-weight: 200;
+    margin-top: -1.3rem;
+    margin-bottom: 2.24rem;
+  }
+  #form .fill_all_message {
+    margin-bottom: 3.03rem;
+    margin-top: 4rem;
+  }
+  #form .fill_all_message .message {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  #form .fill_pass_message {
+    margin-bottom: 2.6rem;
+    margin-top: 4.7rem;
+  }
+  #form .fill_pass_message .message {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  #form .fill_pass_message .message span {
+    border-bottom: double 0.333rem #4b4b4b;
+    font-weight: bold;
+  }
+  #form .message_to_confirm {
+    margin-bottom: 2.88rem;
+    margin-top: 2.8rem;
+  }
+  #form .message_to_confirm .message {
+    font-size: 1.64rem;
+  }
+  #form .form {
+    margin-bottom: 2.39rem;
+  }
+  #form_login .form {
+    margin-bottom: 1rem;
+  }
+  #form .form .form_label {
+    margin-bottom: 0.83rem;
+  }
+  #form_login .form .form_label {
+    margin-bottom: 0.5rem;
+  }
+  #form .form .form_label label {
+    font-size: 1.96rem;
+    font-weight: 500;
+  }
+  #form_login .form .form_label label {
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+  #form .form .form_supplemental {
+    margin-bottom: 0.7rem;
+    font-size: 1.436rem;
+    margin-top: 0.58rem;
+    word-break: break-all;
+  }
+  #form .form .alert {
+    color: #ff0000;
+    margin-top: 0.58rem;
+    margin-bottom: 0.7rem;
+    font-size: 1.495rem;
+    font-weight: 200;
+  }
+  #form .form .form_input input {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    height: 1.98rem;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    border-bottom: 2px solid #4b4b4b;
+    border-radius: 0.18rem;
+    margin-bottom: 0.878rem;
+    color: #4b4b4b;
+    padding-bottom: 0.1rem;
+  }
+  #form_login .form .form_input input {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    font-size: 1.74rem;
+    font-weight: 400;
+    height: 1.99rem;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    border-bottom: 2px solid #4b4b4b;
+    border-radius: 0.18rem;
+    margin-bottom: 0.8rem;
+    color: #4b4b4b;
+    padding-bottom: 0.5rem;
+    line-height: 2.1rem;
+  }
+  #form .form .form_input input:-internal-autofill-selected {
+    background-color: #fff !important;
+  }
+  #form_login .form .form_input input:-internal-autofill-selected {
+    background-color: #fff !important;
+  }
+  #form .form .form_input input:-webkit-autofill {
+    background-color: #fff !important;
+  }
+  #form_login .form .form_input input:-webkit-autofill {
+    background-color: #fff !important;
+  }
+  #form .form .form_input input.narrow {
+    width: 10rem;
+  }
+  #form .form .form_input input.middle {
+    width: 24rem;
+  }
+  #form_login .form .form_input input.middle {
+    width: 22.4rem;
+  }
+  #form .form .form_input input.wide {
+    width: 25.5rem;
+  }
+  #form .form .form_input input.placeholder {
+    font-size: 1.04rem;
+  }
+  #form .form .form_input input.red {
+    border-bottom: 2px solid #ff0000;
+  }
+  #form .conf .form_checkbox {
+    display: flex;
+    margin-top: 0.66rem;
+  }
+  #form .conf .form_checkbox .checkbox {
+    margin-top: 0.05rem;
+  }
+  #form .conf .form_checkbox .checkbox input {
+    width: 1.2rem;
+    border: 1px solid #4b4b4b;
+    margin-top: 0.04rem;
+  }
+  #form .conf .form_checkbox .text {
+    margin-left: 0.6rem;
+    font-size: 1.4rem;
+  }
+  #form .form .form_radio_buttons {
+    margin-top: 0.79rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container .radio_button input {
+    width: 1.35rem;
+    border: 1px solid #4b4b4b;
+    margin-top: 0.04rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container .text {
+    margin-left: 0.4rem;
+    font-size: 1.42rem;
+  }
+  #form .info_container {
+    margin-bottom: 2.77rem;
+  }
+  #form .info_container .info {
+    font-size: 1.52rem;
+    margin-bottom: 1.09rem;
+  }
+  #form .info_container .info .colon {
+    margin-right: 0.2rem; 
+    margin-left: 0.05rem; 
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  #form .info_container .products_to_buy {
+    margin-top: 1.4rem;
+    margin-bottom: 2.2rem;
+  }
+  #form .info_container .products_to_buy .info_title .title {
+    font-size: 1.52rem;
+    margin-bottom: 1.28rem;
+    margin-top: 2.89rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy {
+    display: flex;
+    margin-bottom: 1.4rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .left {
+    margin-right: 0.6rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .image {
+    margin-right: 0.5rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .image img {
+    width: 7.2rem;
+    height: 7.2rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .name {
+    font-size: 1.4rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .price {
+    font-size: 1.4rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .quantity {
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+    margin-top: 1.29rem;
+  }
+  #form .submit {
+    margin-top: 3.9rem;
+    margin-bottom: 3.6rem;
+  }
+  #form .cart {
+    margin-top: 5.7rem;
+  }
+  #form_login .submit {
+    margin-top: 1.4rem;
+  }
+  #form_mod_done .submit_mod_done {
+    margin-top: 3.14rem;
+  }
+  #form .submit .button input, #form_login .submit .button input {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.64rem;
+    padding-bottom: 0.64rem;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    border-radius: 0.4rem;
+    font-size: 1.45rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.8rem;
+  }
+  #form_mod_done .submit_mod_done .button input {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.64rem;
+    padding-bottom: 0.64rem;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    border-radius: 0.4rem;
+    font-size: 1.19rem;
+    line-height: 1.3rem;
+  }
+  #form .table_container {
+    margin-top: 5.4rem;
+    margin-bottom: 0rem;
+  }
+  #form .table_container table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  #form .table_container table tr td {
+    font-size: 1.175rem;
+    padding-right: 1.3rem;
+    padding-bottom: 1.6rem;
+  }
+  #form .table_container table tr td:last-child {
+    padding-right: 0;
+  }
+  #form .table_container table tr:nth-child(1) td {
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+  }
+  #form .table_container table tr .img {
+    width: 22%;
+  }
+  #form .table_container table tr .img img {
+    width: 4.7rem;
+  } 
+  #form .table_container table tr .name {
+    width: 28%;
+    font-size: 1.48rem;
+    word-break: break-all;
+  }
+  #form .table_container table tr .price {
+    width: 20%;
+    font-size: 1.48rem;
+  }
+  #form .table_container table tr .num {
+    font-size: 1.48rem;
+    width: 15%;
+  }
+  #form .table_container table tr .shokei {
+    width: 18%;
+    font-size: 1.48rem;
+  }
+  #form .table_container table tr .shokei input {
+    width: 6rem;
+  }
+  #form .table_container table tr .delete {
+    width: 9%;
+  }
+  #form .table_container table tr .delete input {
+    width: 1.6rem;
+  }
+  #form .table_container .total {
+    font-size: 1.4rem;
+    margin-top: 1.48rem;
+  }
+  #form .table_container .total .colon {
+    margin-left: 0.2rem;
+    margin-right: 0.3rem;
+  }
+  #link {
+    margin-bottom: 5rem;
+  }
+  #link .anchor {
+    font-size: 1.55rem;
+  }
+  #not_resistered {
+    margin-top: 2.49rem;
+  }
+  #not_resistered .title {
+    font-size: 1.64rem;
+    font-weight: 600;
+  }
+  #not_resistered .title .underline {
+    border-bottom: double 3px #4b4b4b;
+  }
+  #not_resistered .message {
+    font-size: 1.42rem;
+    margin-top: 1.35rem;
+  }
+  #not_resistered .link {
+    margin-top: 1.89rem;
+  }
+  #not_resistered .link a {
+    font-size: 1.64rem;
+  }
+
+  /* -- reading -- */
+  #text {
+    margin-bottom: 5.56rem;
+  }
+  #text .text_title {
+    margin-top: 4.98rem;
+    margin-bottom: 5.1rem;
+  }
+  #text .text_title h2 {
+    font-size: 3.2rem;
+    font-weight: 600;
+  }
+  #text .contents {
+    margin-top: 4.8rem;
+    margin-bottom: 5.2rem;
+  }
+  #text .contents .content {
+    margin-bottom: 4.6rem;
+  }
+  #text .contents .content .content_title {
+    margin-top: 3.1rem;
+    margin-bottom: 1.9rem;
+  }
+  #text .contents .content .content_title h3 {
+    font-size: 2.15rem;
+    font-weight: 600;
+  }
+  #text .contents .content .content_title h3 .top_number {
+    margin-right: 0.28rem;
+  }
+  #text .contents .content .content_title h3 .chapter_number {
+    margin-right: 0.8rem;
+  }
+  #text .contents .content .paragraph {
+    margin-top: 1.6rem;
+  }
+  #text .contents .content .paragraph p {
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 2.43rem;
+    margin-bottom: 1.2rem;
+  }
+  #text .contents .content .paragraph p .bracket {
+    margin-left: 0.1rem;
+    margin-right: 0.3rem;
+    font-size: 1.44rem;
+  }
+  #text .contents .content .article .article_title {
+    margin-top: 3.76rem;
+    margin-bottom: 2.6rem;
+  }
+  #text .contents .content .article .article_title h4 {
+    font-size: 1.77rem;
+    font-weight: 600;
+  }
+  #text .contents .content .article .description p {
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 2.43rem;
+    margin-bottom: 1.2rem;
+  }
+  #text .contents .content .article .general_rule_container .description .general_rule .party {
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+    font-size: 1.7rem;
+  }
+  #text .contents .content .article .general_rule_container .description .general_rule .explanation {
+    margin-bottom: 1.3rem;
+  } 
+  #text .contents .content .article .list {
+    margin-top: 2.5rem;
+  }
+  #text .contents .content .article .list ul {
+    list-style: none;
+  }
+  #text .contents .content .article .list ul li {
+     font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 2.43rem;
+    margin-bottom: 1.2rem;
+  }
+
+  /* -- error -- */
+  #error {
+    margin-top: 14rem;
+  }
+  #error .message {
+    text-align: center;
+    font-size: 1.48rem;
+    margin-bottom: 2.5rem;
+  }
+  #error .message_sub {
+    text-align: center;
+    font-size: 1.15rem;
+  }
+  #error .submit {
+    margin-top: 3.97rem;
+  }
+  #error .submit .button {
+    margin-bottom: 1.1rem;
+    margin-left:  auto;
+    width: 10rem;
+    margin-right: auto;
+  }
+  #error .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.04rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.35rem;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    border-radius: 0.24rem;
+    line-height: 1.3rem;
+  }
+  #error .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+
+  /* - footer - */
+  #footer {
+    width:  100%;
+    height: 2.28rem;
+    margin-top: auto;
+    text-align: center;
+    padding-bottom: 0.7rem;
+  }.footer_margin {
+    padding-bottom: 0.9rem;
+  }
+  #footer p {
+    font-size: 1.56rem;
+    font-weight: bold;
+  }
+  #footer span {
+    margin-right: 0.235rem;
+  }
+
+}
+/* - SP - */
+@media (min-width: 370px) {
+
+  /* - general - */
+  html {
+    color: #4b4b4b;
+    width: 100%;
+    font-size: 10px;
+    height: 100%;
+  }
+  body {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    margin: 0 auto;
+    margin-bottom: 0;
+    position: relative;
+    height: 100%;
+    user-select:none;
+  }
+  #wrap {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  a, a:visited {
+    color: #1a0dab;
+    text-decoration: none;
+  }
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  }
+  input:focus {
+    outline: none;
+  }
+  ::selection {
+    background: #fff;
+    color: #4b4b4b;
+  }
+  ::-moz-selection {
+    background: #fff;
+    color: #4b4b4b;
+  }
+
+  /* - header - */
+  #header {
+    display: flex;
+    justify-content: flex-end;
+    width: 83.5%;
+    margin: auto;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+  }
+  #header .flex_item {
+    margin-top: 0.98rem;
+  }
+  #header .flex_item:first-child {
+    color: #4b4b4b;
+    margin-right: auto;
+    line-height: 4.4rem;
+    font-size: 1.598rem;
+    font-weight: 500;
+  }
+  #header .flex_item:nth-child(3) {
+    margin-left: 0.86rem;
+  }
+  #header .flex_item:last-child {
+    margin-left: 1.199rem;
+  }
+  #header .flex_item .icon {
+    width: 4.1rem;
+  }
+  #header .flex_item a img[alt="mypage"] {
+    margin-right: -0.55rem;
+  }
+
+  /* - main - */
+  #main {
+    width: 83.4%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  /* -- index -- */
+  #index_title, #products {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #index_title h1 {
+    font-size: 8.8rem;
+    font-weight: 800;
+    margin-top: 8.4rem;
+    margin-bottom: 1.38rem;
+    text-align:  center;
+  }
+  #index_title h2 {
+    font-size: 2.44rem;
+    margin-top: 1.23rem;
+    font-weight: 400;
+    font-family:'Times New Roman';
+    text-align: center;
+    letter-spacing: 0.001rem;
+  }
+  #products {
+    margin-top: 3.5rem;
+    position: relative;
+  }
+  #products h2 {
+    margin-top: 3.1rem;
+    font-size: 2.28rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  #products #cat_id {
+    font-family:'Times New Roman',Century,'HG明朝E','ヒラギノ明朝 Pro W3','Yu Mincho', serif;
+    font-size: 1.73rem;
+    margin-top: 1.8rem;
+    background-color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+    padding-bottom: 0.4rem;
+    padding-left: 0.2rem;
+    width: 12rem;
+    color: #4b4b4b;
+    outline: none;
+    background-image: url('../icon/arrow_down.svg');
+    background-size: 1.04rem;
+    background-position: right 0.2rem top 0.47rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    line-height: 1.8rem;
+  }
+  #products .select_box {
+    width: 12rem;
+    margin-left:  auto;
+    margin-right:  auto;
+    border-bottom: 2px solid #4b4b4b;
+    margin-bottom: 3.42rem;
+  }
+  #products #cat_id:focus {
+    outline: none;
+  }
+  #products #cat_id option {
+    text-align: center;
+  }
+  #products .prompt {
+    margin-top: 0rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  #products #pro_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* -- contents_center -- */
+  #product_title h2, #product p {
+    text-align: center;
+  }
+  #product_title {
+    margin-top: 6.7rem;
+    margin-bottom: 4.3rem;
+  }
+  #product_title h2 {
+    font-size: 3.83rem;
+    font-weight: 600;
+  }
+  #product .product_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 29rem;
+    margin: auto;
+  }
+  #product .product_container .left {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #product .product_container .left .img img {
+    display: inline-block;
+    margin: auto;
+    width: 22rem;
+  }
+  #product .product_container .right .name {
+    font-size: 2.9rem;
+    letter-spacing: -1px;
+    font-weight: 600;
+    margin-top: 3rem;
+  } 
+  #product .product_container .right .price {
+    font-size: 2.3rem;
+    font-weight: 300;
+    margin-top: 2.76rem;
+  } 
+  #product .submit {
+    margin-top: 4.58rem;
+  }
+  #product .submit .button {
+    margin-bottom: 2.94rem;
+  }
+  #product .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.53rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 1.03rem;
+    padding-bottom: 0.99rem;
+    padding-right: 0.76rem;
+    padding-left: 0.76rem;
+    border-radius: 0.44rem;
+    line-height: 1.2rem;
+  }
+  #product .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+  #product .submit .button input {
+    color: #4b4b4b;
+    font-size: 1.53rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 1.03rem;
+    padding-bottom: 0.86rem;
+    padding-right: 0.76rem;
+    padding-left: 0.76rem;
+    border-radius: 0.44rem;
+    line-height: 1.2rem;
+  }
+  #contents_center .message_container .message {
+    text-align: center;
+    font-size: 2.084rem;
+    margin-top: 17.5rem;
+  }
+  #contents_center .message_container_done .message {
+    text-align: center;
+    font-size: 2.29rem;
+    margin-top: 13.15rem;
+  }
+  #contents_center .message_container_done .message_sub_container {
+    margin-top: 3.74rem;
+  }
+  #contents_center .message_container_done .message_sub_container .message_sub {
+    text-align: center;
+    font-size: 1.51rem;
+    margin-bottom: 1.6rem;
+  }
+  #contents_center .submit {
+    margin-top: 4.3rem;
+  }
+  #contents_center .submit .button {
+    margin-bottom: 4.5rem;
+    text-align: center;
+  }
+  #contents_center .submit_mod_done .button {
+    margin-bottom: 1.3rem;
+    text-align: center;
+  }
+  #contents_center .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.56rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.9rem;
+    padding-bottom: 1.08rem;
+    padding-right: 0.76rem;
+    padding-left: 0.76rem;
+    border-radius: 0.44rem;
+    line-height: 1.5rem;
+  }
+  #contents_center .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+
+  /* -- form -- */
+  #form_title {
+    margin-top: 4.98rem;
+    margin-bottom: 4.7rem;
+  }
+  #form_title h2 {
+    font-size: 4.22rem;
+    font-weight: 600;
+  }
+  #form_login_title {
+    margin-top: 5.3rem;
+    margin-bottom: 5.2rem;
+  }
+  #form_login_title h2 {
+    font-size: 4.36rem;
+    font-weight: 600;
+  }
+  #mypage_title {
+    margin-top: 6rem;
+    margin-bottom: 4.88rem;
+  }
+  #mypage_title h2 {
+    font-size: 4.13rem;
+    font-weight: 600;
+  }
+  #cartlook_title {
+    margin-top: 5.8rem;
+    margin-bottom: 6.4rem;
+  }
+  #cartlook_title h2 {
+    font-size: 3.9rem;
+    font-weight: 600;
+  }
+  #login_failed_message .message {
+    font-size: 1.6rem;
+    color: #ff0000;
+    font-weight: 200;
+    margin-top: -2.4rem;
+    margin-bottom: 3.04rem;
+  }
+  #form .fill_all_message {
+    margin-bottom: 3.99rem;
+  }
+  #form .fill_all_message .message {
+    font-size: 1.76rem;
+    font-weight: bold;
+  }
+  #form .fill_pass_message {
+    margin-bottom: 2.1rem;
+    margin-top: 5.4rem;
+  }
+  #form .fill_pass_message .message {
+    font-size: 1.87rem;
+  }
+  #form .fill_pass_message .message span {
+    border-bottom: double 0.333rem #4b4b4b;
+    font-weight: bold;
+  }
+  #form .message_to_confirm {
+    margin-bottom: 3.5rem;
+    margin-top: 4.6rem;
+  }
+  #form .message_to_confirm .message {
+    font-size: 2rem;
+  }
+  #form .form {
+    margin-bottom: 2.76rem;
+  }
+  #form_login .form {
+    margin-bottom: 1.7rem;
+  }
+  #form .form .form_label {
+    margin-bottom: 1.06rem;
+  }
+  #form_login .form .form_label {
+    margin-bottom: 0.5rem;
+  }
+  #form .form .form_label label {
+    font-size: 2.1rem;
+    font-weight: 500;
+  }
+  #form_login .form .form_label label {
+    font-size: 2.03rem;
+    font-weight: 600;
+  }
+  #form .form .form_supplemental {
+    margin-bottom: 1.05rem;
+    font-size: 1.73rem;
+    margin-top: 0.89rem;
+    word-break: break-all;
+  }
+  #form .form .alert {
+    color: #ff0000;
+    margin-top: 0.89rem;
+    margin-bottom: 1.05rem;
+    font-size: 1.73rem;
+    font-weight: 200; 
+  }
+  #form .form .form_input input {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    font-size: 1.88rem;
+    font-weight: 400;
+    height: 2.5rem;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    border-bottom: 2px solid #4b4b4b;
+    border-radius: 0.18rem;
+    margin-bottom: 1.14rem;
+    padding-bottom: 0.1rem;
+    color: #4b4b4b;
+    line-height: 2.5rem;
+  }
+  #form_login .form .form_input input {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    font-size: 1.97rem;
+    font-weight: 400;
+    height: 2.31rem;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    border-bottom: 2px solid #4b4b4b;
+    border-radius: 0.18rem;
+    margin-bottom: 0.8rem;
+    color: #4b4b4b;
+  }
+  #form .form .form_input input:-internal-autofill-selected {
+    background-color: #fff !important;
+  }
+  #form_login .form .form_input input:-internal-autofill-selected {
+    background-color: #fff !important;
+  }
+  #form .form .form_input input:-webkit-autofill {
+    background-color: #fff !important;
+  }
+  #form_login .form .form_input input:-webkit-autofill {
+    background-color: #fff !important;
+  }
+  #form .form .form_input input.narrow {
+    width: 11.7rem;
+  }
+  #form .form .form_input input.middle {
+    width: 27.8rem;
+  }
+  #form_login .form .form_input input.middle {
+    width: 24.2rem;
+  }
+  #form .form .form_input input.wide {
+    width: 31rem;
+  }
+  #form .form .form_input input.placeholder {
+    font-size: 1.04rem;
+  }
+  #form .form .form_input input.red {
+    border-bottom: 2px solid #ff0000;
+  }
+  #form .conf .form_checkbox {
+    display: flex;
+    margin-top: 0.66rem;
+  }
+  #form .conf .form_checkbox .checkbox {
+    margin-top: 0.05rem;
+  }
+  #form .conf .form_checkbox .checkbox input {
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 1px solid #4b4b4b;
+    margin-top: 0.21rem;
+  }
+  #form .conf .form_checkbox .text {
+    margin-left: 0.67rem;
+    font-size: 1.76rem;
+  }
+  #form .form .form_radio_buttons {
+    margin-top: 0.79rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container {
+    display: flex;
+    margin-bottom: 0.45rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container .radio_button input {
+     width: 1.6rem;
+     height: 1.6rem;
+     border: 1px solid #4b4b4b;
+     margin-top: 0.27rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container .text {
+    margin-left: 0.4rem;
+   font-size: 1.75rem;
+    margin-bottom: 0.37rem;
+  }
+  #form .info_container {
+    margin-bottom: 5.2rem;
+  }
+  #form .info_container .info {
+    font-size: 1.9rem;
+    margin-bottom: 1.54rem;
+    word-break: break-all;
+  }
+  #form .info_container .info .colon {
+    margin-right: 0.2rem; 
+    margin-left: 0.05rem; 
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  #form .info_container .products_to_buy {
+    margin-top: 1.4rem;
+    margin-bottom: 2.99rem;
+  }
+  #form .info_container .products_to_buy .info_title {
+    margin-bottom: 0.8rem;
+  }
+  #form .info_container .products_to_buy .info_title .title {
+    font-size: 1.92rem;
+    margin-bottom: 1.6rem;
+    margin-top: 3.06rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy {
+    display: flex;
+    margin-bottom: 1.9rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .left {
+    margin-right: 0.6rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .image {
+    margin-right: 0.5rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .image img {
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .name {
+    font-size: 1.85rem;
+    margin-bottom: 1.1rem;
+    margin-top: 0rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .price {
+    font-size: 1.85rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .quantity {
+    font-size: 1.85rem;
+    margin-bottom: 0.4rem;
+    margin-top: 1.7rem;
+  }
+  #form .submit {
+    margin-top: 4.6rem;
+    margin-bottom: 4.9rem;
+  }
+  #form .cart {
+     margin-top: 6.12rem;
+   }
+  #form_login .submit {
+    margin-top: 2.36rem;
+  }
+  #form_mod_done .submit_mod_done {
+    margin-top: 3.5rem;
+  }
+  #form .submit .button input, #form_login .submit .button input {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 1.1rem;
+    padding-bottom: 0.86rem;
+    padding-right: 0.76rem;
+    padding-left: 0.76rem;
+    border-radius: 0.44rem;
+    font-size: 1.7rem;
+    line-height: 1.4rem;
+    margin-bottom: 2.19rem;
+  }
+  #form_mod_done .submit_mod_done .button input {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 1.03rem;
+    padding-bottom: 0.86rem;
+    padding-right: 0.76rem;
+    padding-left: 0.76rem;
+    border-radius: 0.44rem;
+    font-size: 1.7rem;
+    line-height: 1.4rem;
+    margin-bottom: 0.7rem;
+  }
+  #form .table_container {
+    margin-top: 5.4rem;
+    margin-bottom: 0rem;
+  }
+  #form .table_container table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  #form .table_container table tr td {
+    font-size: 1.175rem;
+    padding-right: 1.3rem;
+    padding-bottom: 1.59rem;
+  }
+  #form .table_container table tr td:last-child {
+    padding-right: 0;
+  }
+  #form .table_container table tr:nth-child(1) td {
+    font-weight: bold;
+    font-size: 1.226rem;
+    padding-bottom: 2.2rem;
+  }
+  #form .table_container table tr .img {
+    width: 22%;
+  }
+  #form .table_container table tr .img img {
+    width: 5rem;
+  } 
+  #form .table_container table tr .name {
+    width: 28%;
+    font-size: 1.5rem;
+    word-break: break-all;
+  }
+  #form .table_container table tr .price {
+    width: 20%;
+    font-size: 1.4rem;
+  }
+  #form .table_container table tr .num {
+    font-size: 1.4rem;
+    width: 15%;
+  }
+  #form .table_container table tr .shokei {
+    width: 18%;
+    font-size: 1.4rem;
+  }
+  #form .table_container table tr .shokei input {
+    width: 6rem;
+  }
+  #form .table_container table tr .delete {
+    width: 9%;
+  }
+  #form .table_container .total {
+    font-size: 1.5rem;
+    margin-top: 1.3rem;
+  }
+  #form .table_container .total .colon {
+    margin-left: 0.2rem;
+    margin-right: 0.3rem;
+  }
+  #link {
+    margin-bottom: 5.4rem;
+    margin-top: -2.2rem;
+  }
+  #link .anchor {
+    font-size: 1.75rem;
+  }
+  #not_resistered {
+    margin-top: 2.96rem;
+  }
+  #not_resistered .title {
+    font-size: 1.78rem;
+    font-weight: 600;
+  }
+  #not_resistered .title .underline {
+    border-bottom: double 3px #4b4b4b;
+  }
+  #not_resistered .message {
+    font-size: 1.51rem;
+    margin-top: 1.76rem;
+  }
+  #not_resistered .link {
+    margin-top: 2.08rem;
+  }
+  #not_resistered .link a {
+    font-size: 1.799rem;
+  }
+
+  /* -- reading -- */
+  #text {
+    margin-bottom: 4.6rem;
+  }
+  #text .text_title {
+    margin-top: 5.4rem;
+    margin-bottom: 4.38rem;
+  }
+  #text .text_title h2 {
+    font-size: 3.7rem;
+    font-weight: 600;
+  }
+  #text .contents {
+    margin-bottom: 5.6rem;
+  }
+  #text .contents .content {
+    margin-bottom: 4.6rem;
+  }
+  #text .contents .content .content_title {
+    margin-top: 3.499rem;
+    margin-bottom: 2rem;
+  }
+  #text .contents .content .content_title h3 {
+    font-size: 2.44rem;
+    font-weight: 600;
+  }
+  #text .contents .content .content_title h3 .top_number {
+    margin-right: 0.28rem;
+  }
+  #text .contents .content .content_title h3 .chapter_number {
+    margin-right: 0.8rem;
+  }
+  #text .contents .content .paragraph {
+    margin-top: 1.6rem;
+  }
+  #text .contents .content .paragraph p {
+    font-size: 1.63rem;
+    font-weight: 100;
+    line-height: 2.6rem;
+    margin-bottom: 1.198rem;
+  }
+  #text .contents .content .paragraph p .bracket {
+    margin-left: 0.1rem;
+    margin-right: 0.3rem;
+    font-size: 1.52rem;
+  }
+  #text .contents .content .article .article_title {
+    margin-top: 3.76rem;
+    margin-bottom: 2.6rem;
+  }
+  #text .contents .content .article .article_title h4 {
+    font-size: 2.13rem;
+    font-weight: 600;
+  }
+  #text .contents .content .article .description p {
+    font-size: 1.63rem;
+    font-weight: 100;
+    line-height: 2.6rem;
+    margin-bottom: 1.45rem;
+  }
+  #text .contents .content .article .general_rule_container .description .general_rule {
+    margin-bottom: 1.4rem;
+  }
+  #text .contents .content .article .general_rule_container .description .general_rule .party {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: 0.42rem;
+  }
+  #text .contents .content .article .general_rule_container .description .general_rule .explanation {
+    font-size: 1.63rem;
+    font-weight: 100;
+    line-height: 2.6rem;
+    margin-bottom: 1.198rem;
+  } 
+  #text .contents .content .article .list {
+    margin-top: 2.5rem;
+  }
+  #text .contents .content .article .list ul {
+    list-style: none;
+  }
+  #text .contents .content .article .list ul li {
+   font-size: 1.63rem;
+   font-weight: 100;
+   line-height: 2.6rem;
+   margin-bottom: 1.198rem;
+  }
+
+  /* -- error -- */
+  #error {
+    margin-top: 14rem;
+  }
+  #error .message {
+    text-align: center;
+    font-size: 1.48rem;
+    margin-bottom: 2.5rem;
+  }
+  #error .message_sub {
+    text-align: center;
+    font-size: 1.15rem;
+  }
+  #error .submit {
+    margin-top: 3.97rem;
+  }
+  #error .submit .button {
+    margin-bottom: 1.1rem;
+    margin-left:  auto;
+    width: 10rem;
+    margin-right: auto;
+  }
+  #error .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.04rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.35rem;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    border-radius: 0.24rem;
+    line-height: 1.3rem;
+  }
+  #error .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+
+  /* - footer - */
+  #footer {
+    width:  100%;
+    height: 2.66rem;
+    margin-top: auto;
+    text-align: center;
+    padding-bottom: 1.1rem;
+  }.footer_margin {
+    padding-bottom: 1.2rem;
+  }
+  #footer p {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  #footer span {
+    margin-right: 0.235rem;
+  }
+
+}
+/* - TABLET Small - */
+@media (min-width: 479px) {
+
+  /* general */
+  html {
+    color: #4b4b4b;
+    width: 100%;
+    font-size: 13px;
+    height: 100%;
+  }
+  body {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    margin: 0 auto;
+    margin-bottom: 0;
+    position: relative;
+    height: 100%;
+    user-select:none;
+  }
+  #wrap {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  a, a:visited {
+    color: #1a0dab;
+    text-decoration: none;
+  }
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  }
+  input:focus {
+    outline: none;
+  }
+  ::selection {
+    background: #fff;
+    color: #4b4b4b;
+  }
+  ::-moz-selection {
+    background: #fff;
+    color: #4b4b4b;
+  }
+
+  /* - header - */
+  #header {
+    display: flex;
+    justify-content: flex-end;
+    width: 83.3%;
+    margin: auto;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+  }
+  #header .flex_item {
+    margin-top: 0.9rem;
+  }
+  #header .flex_item:first-child {
+    color: #4b4b4b;
+    margin-right: auto;
+    line-height: 3.99rem;
+    font-size: 1.33rem;
+    font-weight: 500;
+  }
+  #header .flex_item:nth-child(3) {
+    margin-left: 0.79rem;
+  }
+  #header .flex_item:last-child {
+    margin-left: 1.29rem;
+  }
+  #header .flex_item .icon {
+    width: 3.88rem;
+  }
+  #header .flex_item a img[alt="mypage"] {
+    margin-right: -0.79rem;
+  }
+
+  /* - main - */
+  #main {
+    width: 83.3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  /* -- index -- */
+  #index_title, #products {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #index_title h1 {
+    font-size: 8.23rem;
+    font-weight: 800;
+    margin-top: 4.71rem;
+    margin-bottom: 1.1rem;
+    text-align:  center;
+  }
+  #index_title h2 {
+    font-size: 1.99rem;
+    margin-top: 1.23rem;
+    font-weight: 400;
+    font-family:'Times New Roman';
+    text-align: center;
+    letter-spacing: 0.001rem;
+    width: 100%;
+  }
+  #products {
+    margin-top: 2rem;
+    position: relative;
+  }
+  #products h2 {
+    margin-top: 3.1rem;
+    font-size: 1.967rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  #products #cat_id {
+    font-family:'Times New Roman',Century,'HG明朝E','ヒラギノ明朝 Pro W3','Yu Mincho', serif;
+    font-size: 1.498rem;
+    margin-top: 1.8rem;
+    background-color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+    padding-bottom: 0.2rem;
+    padding-left: 0.2rem;
+    width: 12rem;
+    color: #4b4b4b;
+    outline: none;
+    background-image: url('../icon/arrow_down.svg');
+    background-size: 0.8847rem;
+    background-position: right 0.3rem top 0.67rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    line-height: 1.95rem;
+  }
+  #products .select_box {
+    width: 12rem;
+    margin-left:  auto;
+    margin-right:  auto;
+    border-bottom: 2px solid #4b4b4b;
+    margin-bottom: 2.9rem;
+  }
+  #products #cat_id:focus {
+    outline: none;
+  }
+  #products #cat_id option {
+    text-align: center;
+  }
+  #products .prompt {
+    margin-top: 0rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+  }
+  #products #pro_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* -- contents_center -- */
+  #product_title h2, #product p {
+    text-align: center;
+  }
+  #product_title {
+    margin-top: 5.3rem;
+    margin-bottom: 3.1rem;
+  }
+  #product_title h2 {
+    font-size: 3.05rem;
+    font-weight: 600;
+  }
+  #product .product_container {
+    display: flex;
+    width: 40.5rem;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  #product .product_container .left {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #product .product_container .left .img img {
+    display: inline-block;
+    margin: auto;
+    width: 19rem;
+  }
+  #product .product_container .right {
+    margin-left: 2.5rem;
+    margin-right: 0;
+    width: 19rem;
+  }
+  #product .product_container .right .name {
+    font-size: 2.12rem;
+    letter-spacing: -1px;
+    font-weight: 600;
+    margin-top: 1.2rem;
+  } 
+  #product .product_container .right .price {
+    font-size: 1.654rem;
+    font-weight: 300;
+    margin-top: 1.7rem;
+  } 
+  #product .submit {
+    margin-top: 3.6rem;
+    margin-bottom: 4rem;
+  }
+  #product .submit .button {
+    margin-bottom: 1.9rem;
+  }
+  #product .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.24rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.37rem;
+    line-height: 1.1rem;
+  }
+  #product .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+  #product .submit .button input {
+    color: #4b4b4b;
+    font-size: 1.24rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.55rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.37rem;
+    line-height: 1.1rem;
+  }
+  #contents_center .message_container .message {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 11.51rem;
+  }
+  #contents_center .message_container_done .message {
+    text-align: center;
+    font-size: 1.56rem;
+    margin-top: 9.15rem;
+  }
+  #contents_center .message_container_done .message_sub_container {
+    margin-top: 2.76rem;
+  }
+  #contents_center .message_container_done .message_sub_container .message_sub {
+    text-align: center;
+    font-size: 1.174rem;
+    margin-bottom: 1.6rem;
+  }
+  #contents_center .submit {
+    margin-top: 2.98rem;
+  }
+  #contents_center .submit .button {
+    margin-bottom: 2.6rem;
+    text-align: center;
+  }
+  #contents_center .submit_mod_done .button {
+    margin-bottom: 0.8rem;
+    text-align: center;
+  }
+  #contents_center .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.11rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.39rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.65rem;
+    padding-left: 0.65rem;
+    border-radius: 0.31rem;
+    font-size: 1.19rem;
+    line-height: 1.56rem;
+  }
+  #contents_center .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+
+  /* -- form -- */
+  #form_title {
+    margin-top: 3.68rem;
+    margin-bottom: 3.63rem;
+  }
+  #form_title h2 {
+    font-size: 3.59rem;
+    font-weight: 600;
+  }
+  #form_login_title {
+    margin-top: 2.68rem;
+    margin-bottom: 3.55rem;
+  }
+  #form_login_title h2 {
+    font-size: 3.35rem;
+    font-weight: 600;
+  }
+  #mypage_title {
+    margin-top: 3.99rem;
+    margin-bottom: 3.8rem;
+  }
+  #mypage_title h2 {
+    font-size: 3.32rem;
+    font-weight: 600;
+  }
+  #cartlook_title {
+    margin-top: 5rem;
+    margin-bottom: 6.16rem;
+  }
+  #cartlook_title h2 {
+    font-size: 3.4rem;
+    font-weight: 600;
+  }
+  #login_failed_message .message {
+    font-size: 1.13rem;
+    color: #ff0000;
+    font-weight: 200;
+    margin-top: -2.09rem;
+    margin-bottom: 1.71rem;
+  }
+  #form .fill_all_message {
+    margin-bottom: 2.9rem;
+    margin-top: 3.8rem;
+  }
+  #form .fill_all_message .message {
+    font-size: 1.28rem;
+    font-weight: bold;
+  }
+  #form .fill_pass_message {
+    margin-bottom: 1.8rem;
+    margin-top: 3.8rem;
+  }
+  #form .fill_pass_message .message {
+    font-size: 1.297rem;
+  }
+  #form .fill_pass_message .message span {
+    border-bottom: double 0.333rem #4b4b4b;
+    font-weight: bold;
+  }
+  #form .message_to_confirm {
+    margin-bottom: 2.24rem;
+    margin-top: 3.7rem;
+  }
+  #form .message_to_confirm .message {
+    font-size: 1.38rem;
+  }
+  #form .form {
+    margin-bottom: 2.48rem;
+  }
+  #form_login .form {
+    margin-bottom: 1.39rem;
+  }
+  #form .form .form_label {
+    margin-bottom: 0.8rem;
+  }
+  #form_login .form .form_label {
+    margin-bottom: 0.39rem;
+  }
+  #form .form .form_label label {
+    font-size: 1.47rem;
+    font-weight: 500;
+  }
+  #form_login .form .form_label label {
+    font-size: 1.45rem;
+    font-weight: 600;
+  }
+  #form .form .form_supplemental {
+    margin-bottom: 0.75rem;
+    font-size: 1.17rem;
+    margin-top: 0.898rem;
+  }
+  #form .form .alert {
+    color: #ff0000;
+    margin-top: 0.898rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.17rem;
+    font-weight: 200; 
+  }
+  #form .form .form_input input {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    height: 1.7rem;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    border-bottom: 2px solid #4b4b4b;
+    border-radius: 0.18rem;
+    margin-bottom: 0.98rem;
+    color: #4b4b4b;
+    padding-bottom: 0.01rem;
+  }
+  #form_login .form .form_input input {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    font-size: 1.347rem;
+    font-weight: 400;
+    height: 1.75rem;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    border-bottom: 2px solid #4b4b4b;
+    border-radius: 0.18rem;
+    margin-bottom: 0.8rem;
+    color: #4b4b4b;
+    padding-bottom: 0.07rem;
+  }
+  #form .form .form_input input:-internal-autofill-selected {
+    background-color: #fff !important;
+  }
+  #form_login .form .form_input input:-internal-autofill-selected {
+    background-color: #fff !important;
+  }
+  #form .form .form_input input:-webkit-autofill {
+    background-color: #fff !important;
+  }
+  #form_login .form .form_input input:-webkit-autofill {
+    background-color: #fff !important;
+  }
+  #form .form .form_input input.narrow {
+    width: 10rem;
+  }
+  #form .form .form_input input.middle {
+    width: 19rem;
+  }
+  #form_login .form .form_input input.middle {
+    width: 18.1rem;
+  }
+  #form .form .form_input input.wide {
+    width: 24rem;
+  }
+  #form .form .form_input input.placeholder {
+    font-size: 1.04rem;
+  }
+  #form .form .form_input input.red {
+    border-bottom: 2px solid #ff0000;
+  }
+  #form .conf .form_checkbox {
+    display: flex;
+    margin-top: 0.66rem;
+  }
+  #form .conf .form_checkbox .checkbox {
+    margin-top: 0.05rem;
+  }
+  #form .conf .form_checkbox .checkbox input {
+    width: 1.09rem;
+    height: 1.09rem;
+    border: 1px solid #4b4b4b;
+    margin-top: 0.03rem;
+  }
+  #form .conf .form_checkbox .text {
+    margin-left: 0.4rem;
+    font-size: 1.195rem;
+  }
+  #form .form .form_radio_buttons {
+    margin-top: 0.79rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container {
+    display: flex;
+    margin-bottom: 0.45rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container .radio_button input {
+    width: 1.05rem;
+    height: 1.05rem;
+    border: 1px solid #4b4b4b;
+    margin-top: 0.09rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container .text {
+    margin-left: 0.39rem;
+    font-size: 1.196rem;
+  }
+  #form .info_container {
+    margin-bottom: 3.2rem;
+  }
+  #form .info_container .info {
+    font-size: 1.296rem;
+    margin-bottom: 1.16rem;
+  }
+  #form .info_container .info .colon {
+    margin-right: 0.2rem; 
+    margin-left: 0.05rem; 
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  #form .info_container .products_to_buy {
+    margin-top: 1.4rem;
+    margin-bottom: 2.2rem;
+  }
+  #form .info_container .products_to_buy .info_title .title {
+    font-size: 1.29rem;
+    margin-bottom: 1.24rem;
+    margin-top: 2.4rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .left {
+    margin-right: 0.6rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .image {
+    margin-right: 0.5rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .image img {
+    width: 6.9rem;
+    height: 6.9rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .name {
+    font-size: 1.27rem;
+    margin-bottom: 1.1rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .price {
+    font-size: 1.27rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .quantity {
+    font-size: 1.27rem;
+    margin-bottom: 0.3rem;
+    margin-top: 2.1rem;
+  }
+  #form .submit {
+    margin-top: 3.07rem;
+    margin-bottom: 2.6rem;
+  }
+  #form .cart {
+    margin-top: 4.99rem;
+  }
+  #form_login .submit {
+    margin-top: 1.5rem;
+  }
+  #form_mod_done .submit_mod_done {
+    margin-top: 2.5rem;
+  }
+  #form .submit .button input, #form_login .submit .button input {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.39rem;
+    padding-bottom: 0.37rem;
+    padding-right: 0.65rem;
+    padding-left: 0.65rem;
+    border-radius: 0.31rem;
+    font-size: 1.19rem;
+    line-height: 1.56rem;
+    margin-bottom: 1.88rem;
+  }
+  #form_mod_done .submit_mod_done .button input {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.39rem;
+    padding-bottom: 0.37rem;
+    padding-right: 0.65rem;
+    padding-left: 0.65rem;
+    border-radius: 0.31rem;
+    font-size: 1.19rem;
+    line-height: 1.56rem;
+  }
+  #form .table_container {
+    margin-top: 5.4rem;
+    margin-bottom: 0rem;
+  }
+  #form .table_container table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  #form .table_container table tr td {
+    font-size: 1.175rem;
+    padding-right: 1.3rem;
+    padding-bottom: 2.3rem;
+  }
+  #form .table_container table tr td:last-child {
+    padding-right: 0;
+  }
+  #form .table_container table tr:nth-child(1) td {
+    font-weight: bold;
+    font-size: 1.26rem;
+    padding-bottom: 2.6rem;
+  }
+  #form .table_container table tr .img {
+    width: 22%;
+  }
+  #form .table_container table tr .img img {
+    width: 6rem;
+  } 
+  #form .table_container table tr .name {
+    width: 28%;
+    font-size: 1.49rem;
+    word-break: break-all;
+  }
+  #form .table_container table tr .price {
+    width: 20%;
+    font-size: 1.43rem;
+  }
+  #form .table_container table tr .num {
+    font-size: 1.43rem;
+    width: 15%;
+  }
+  #form .table_container table tr .shokei {
+    width: 18%;
+    font-size: 1.43rem;
+  }
+  #form .table_container table tr .shokei input {
+    width: 6rem;
+  }
+  #form .table_container table tr .delete {
+    width: 9%;
+  }
+  #form .table_container .total {
+    font-size: 1.42rem;
+    margin-top: 1.56rem;
+  }
+  #form .table_container .total .colon {
+    margin-left: 0.2rem;
+    margin-right: 0.3rem;
+  }
+  #link {
+    margin-top: 0.3rem;
+    margin-bottom: 4rem;
+  }
+  #link .anchor {
+    font-size: 1.22rem;
+  }
+  #not_resistered {
+    margin-top: 1.25rem;
+  }
+  #not_resistered .title {
+    font-size: 1.346rem;
+    font-weight: 600;
+  }
+  #not_resistered .title .underline {
+    border-bottom: double 3px #4b4b4b;
+  }
+  #not_resistered .message {
+    font-size: 1.164rem;
+    margin-top: 1.18rem;
+  }
+  #not_resistered .link {
+    margin-top: 1.7rem;
+  }
+  #not_resistered .link a {
+    font-size: 1.292rem;
+  }
+
+  /* -- reading -- */
+  #text {
+    margin-bottom: 4.9rem;
+  }
+  #text .text_title {
+    margin-top: 4.98rem;
+    margin-bottom: 6.39rem;
+  }
+  #text .text_title h2 {
+    font-size: 3.27rem;
+    font-weight: 600;
+  }
+  #text .contents .content {
+    margin-bottom: 4.6rem;
+  }
+  #text .contents .content .content_title {
+    margin-top: 3.499rem;
+    margin-bottom: 1.74rem;
+  }
+  #text .contents .content .content_title h3 {
+    font-size: 1.885rem;
+    font-weight: 600;
+  }
+  #text .contents .content .content_title h3 .top_number {
+    margin-right: 0.28rem;
+  }
+  #text .contents .content .content_title h3 .chapter_number {
+    margin-right: 0.8rem;
+  }
+  #text .contents .content .paragraph {
+    margin-top: 1.6rem;
+  }
+  #text .contents .content .paragraph p {
+    font-size: 1.24rem;
+    font-weight: 100;
+    line-height: 1.88rem;
+    margin-bottom: 0.88rem;
+  }
+  #text .contents .content .paragraph p .bracket {
+    margin-left: 0.1rem;
+    margin-right: 0.3rem;
+    font-size: 1.2rem;
+  }
+  #text .contents .content .article .article_title {
+    margin-top: 3.76rem;
+    margin-bottom: 1.99rem;
+  }
+  #text .contents .content .article .article_title h4 {
+    font-size: 1.499rem;
+    font-weight: 600;
+  }
+  #text .contents .content .article .description p {
+    font-size: 1.24rem;
+    font-weight: 100;
+    line-height: 1.88rem;
+    margin-bottom: 1.2rem;
+  }
+  #text .contents .content .article .general_rule_container .description .general_rule {
+    margin-bottom: 1.63rem;
+  }
+  #text .contents .content .article .general_rule_container .description .general_rule .party {
+    font-weight: bold;
+    font-size: 1.287rem;
+    margin-bottom: 0.33rem;
+  }
+  #text .contents .content .article .general_rule_container .description .general_rule .explanation {
+    font-size: 1.24rem;
+    font-weight: 100;
+    line-height: 1.88rem;
+    margin-bottom: 1.09rem;
+  } 
+  #text .contents .content .article .list {
+    margin-top: 2.5rem;
+  }
+  #text .contents .content .article .list ul {
+    list-style: none;
+  }
+  #text .contents .content .article .list ul li {
+    font-size: 1.24rem;
+    font-weight: 100;
+    line-height: 1.88rem;
+    margin-bottom: 1.09rem;
+  }
+
+  /* -- error -- */
+  #error {
+    margin-top: 14rem;
+  }
+  #error .message {
+    text-align: center;
+    font-size: 1.48rem;
+    margin-bottom: 2.5rem;
+  }
+  #error .message_sub {
+    text-align: center;
+    font-size: 1.15rem;
+  }
+  #error .submit {
+    margin-top: 3.97rem;
+  }
+  #error .submit .button {
+    margin-bottom: 1.1rem;
+    margin-left:  auto;
+    width: 10rem;
+    margin-right: auto;
+  }
+  #error .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.04rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.35rem;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    border-radius: 0.24rem;
+    line-height: 1.3rem;
+  }
+  #error .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+
+  /* - footer - */
+  #footer {
+    width:  100%;
+    height: 1.98rem;
+    margin-top: auto;
+    text-align: center;
+    padding-bottom: 0.276rem;
+  }.footer_margin {
+    padding-bottom: 1.2rem;
+  }
+  #footer p {
+    font-size: 1.38rem;
+    font-weight: bold;
+  }
+  #footer span {
+    margin-right: 0.235rem;
+  }
+
+}
+/* - TABLET - */
+@media (min-width: 840px) {
+
+  /* general */
+  html {
+    color: #4b4b4b;
+    width: 100%;
+    font-size: 15px;
+    height: 100%;
+  }
+  body {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    margin: 0 auto;
+    margin-bottom: 0;
+    position: relative;
+    height: 100%;
+    user-select:none;
+  }
+  #wrap {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  a, a:visited {
+    color: #1a0dab;
+    text-decoration: none;
+  }
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  }
+  input:focus {
+    outline: none;
+  }
+  ::selection {
+    background: #fff;
+    color: #4b4b4b;
+  }
+  ::-moz-selection {
+    background: #fff;
+    color: #4b4b4b;
+  }
+
+  /* - header - */
+  #header {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: auto;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+  }
+  #header .flex_item {
+    margin-top: 0.9rem;
+  }
+  #header .flex_item:first-child {
+    color: #4b4b4b;
+    margin-right: auto;
+    line-height: 4.37rem;
+    font-size: 1.234rem;
+    font-weight: 500;
+  }
+  #header .flex_item:nth-child(3) {
+    margin-left: 0.8rem;
+  }
+  #header .flex_item:last-child {
+    margin-left: 1.25rem;
+  }
+  #header .flex_item .icon {
+    width: 3.58rem;
+  }
+  #header .flex_item a img[alt="mypage"] {
+    margin-right: -0.698rem;
+  }
+
+  /* - main - */
+  #main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  /* -- index -- */
+  #index_title, #products {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #index_title h1 {
+    font-size: 7.699rem;
+    font-weight: 800;
+    margin-top: 3.5rem;
+    margin-bottom: 0.8rem;
+    text-align:  center;
+  }
+  #index_title h2 {
+    font-size: 1.87rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+    font-family:'Times New Roman';
+    text-align: center;
+    letter-spacing: 0.001rem;
+  }
+  #products { 
+    margin-top: 0;   
+    position: relative;
+  }
+  #products h2 {
+    margin-top: 2.9rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  #products #cat_id {
+    font-family:'Times New Roman',Century,'HG明朝E','ヒラギノ明朝 Pro W3','Yu Mincho', serif;
+    font-size: 1.399rem;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+    padding-bottom: 0.2rem;
+    padding-left: 0.2rem;
+    width: 12rem;
+    color: #4b4b4b;
+    outline: none;
+    background-image: url('../icon/arrow_down.svg');
+    background-size: 0.86rem;
+    background-position: right 0.2rem top 0.41rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    line-height: 1.51rem;
+  }
+  #products .select_box {
+    width: 12rem;
+    margin-left:  auto;
+    margin-right:  auto;
+    margin-bottom: 2.03rem;
+    border-bottom: 2px solid #4b4b4b;
+  }
+  #products #cat_id:focus {
+    outline: none;
+  }
+  #products #cat_id option {
+    text-align: center;
+  }
+  #products .prompt {
+    margin-top: 0rem;
+    font-size: 1.14rem;
+    font-weight: 500;
+    text-align: center;
+    width:  100%;
+  }
+  #products #pro_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* -- contents_center -- */
+  #product_title h2, #product p {
+    text-align: center;
+  }
+  #product_title {
+    margin-top: 3.5rem;
+    margin-bottom: 2.7rem;
+  }
+  #product_title h2 {
+    font-size: 2.77rem;
+    font-weight: 600;
+  }
+  #product .product_container {
+    display: flex;
+    width: 40rem;
+    margin: auto;
+    flex-wrap: nowrap;
+  }
+  #product .product_container .left {
+    margin-right: 0; 
+    margin-left: 0;
+  }
+  #product .product_container .left .img img {
+    display: inline-block;
+    margin: auto;
+    width: 18.2rem;
+  }
+  #product .product_container .right {
+    margin-left: 2rem;
+    margin-right: 0;
+    width: 20rem;
+  }
+  #product .product_container .right .name {
+    font-size: 2.13rem;
+    letter-spacing: -1px;
+    font-weight: 600;
+    margin-top: 1.11rem;
+  } 
+  #product .product_container .right .price {
+    font-size: 1.59rem;
+    font-weight: 300;
+    margin-top: 1.7rem;
+  } 
+  #product .submit {
+    margin-top: 3.3rem;
+  }
+  #product .submit .button {
+    margin-bottom: 1.7rem;
+  }
+  #product .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.04rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+    padding-right: 0.64rem;
+    padding-left: 0.64rem;
+    border-radius: 0.3rem;
+    font-size: 1.03rem;
+    line-height: 1.5rem;
+  }
+  #product .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+  #product .submit .button input {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 1.03rem;
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  #contents_center .message_container .message {
+    text-align: center;
+    font-size: 1.49rem;
+    margin-top: 9.43rem;
+  }
+  #contents_center .message_container_done .message {
+    text-align: center;
+    font-size: 1.56rem;
+    margin-top: 9.15rem;
+  }
+  #contents_center .message_container_done .message_sub_container {
+    margin-top: 3.699rem;
+  }
+  #contents_center .message_container_done .message_sub_container .message_sub {
+    text-align: center;
+    font-size: 1.168rem;
+    margin-bottom: 1.6rem;
+  }
+  #contents_center .submit {
+    margin-top: 2.5rem;
+  }
+  #contents_center .submit .button {
+    margin-bottom: 2.3rem;
+    text-align: center;
+  }
+  #contents_center .submit_mod_done .button {
+    margin-bottom: 1.3rem;
+    text-align: center;
+  }
+  #contents_center .submit .button a {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.47rem;
+    padding-bottom: 0.47rem;
+    padding-right: 0.64rem;
+    padding-left: 0.64rem;
+    border-radius: 0.3rem;
+    font-size: 1.03rem;
+    line-height: 1.3rem;
+    margin-bottom: 1.57rem;
+  }
+  #contents_center .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+
+  /* -- form -- */
+  #form_title {
+    margin-top: 3.11rem;
+    margin-bottom: 3.5rem;
+  }
+  #form_title h2 {
+    font-size: 3.27rem;
+    font-weight: 600;
+  }
+  #form_login_title {
+    margin-top: 1.8rem;
+    margin-bottom: 3rem;
+  }
+  #form_login_title h2 {
+    font-size: 3.06rem;
+    font-weight: 600;
+  }
+  #mypage_title {
+    margin-top: 2.76rem;
+    margin-bottom: 3.3rem;
+  }
+  #mypage_title h2 {
+    font-size: 3.09rem;
+    font-weight: 600;
+  }
+  #cartlook_title {
+    margin-top: 4rem;
+    margin-bottom: 5.88rem;
+  }
+  #cartlook_title h2 {
+    font-size: 3.08rem;
+    font-weight: 600;
+  }
+  #login_failed_message .message {
+    font-size: 1.038rem;
+    color: #ff0000;
+    font-weight: 200;
+    margin-top: -1.35rem;
+    margin-bottom: 1.48rem;
+  }
+  #form .fill_all_message {
+    margin-bottom: 2.3rem;
+    margin-top: 3.8rem;
+  }
+  #form .fill_all_message .message {
+    font-size: 1.138rem;
+    font-weight: bold;
+  }
+  #form .fill_pass_message {
+    margin-bottom: 3.1rem;
+    margin-top: 4.7rem;
+  }
+  #form .fill_pass_message .message {
+    font-size: 1.23rem;
+  }
+  #form .fill_pass_message .message span {
+    border-bottom: double 0.333rem #4b4b4b;
+    font-weight: bold;
+  }
+  #form .message_to_confirm {
+    margin-bottom:  2rem;
+    margin-top: 2.8rem;
+  }
+  #form .message_to_confirm .message {
+    font-size: 1.22rem;
+  }
+  #form .form {
+    margin-bottom: 2.2rem;
+  }
+  #form_login .form {
+    margin-bottom: 0.7rem;
+  }
+  #form .form .form_label {
+    margin-bottom: 0.68rem;
+  }
+  #form_login .form .form_label {
+    margin-bottom: 0.49rem;
+  }
+  #form .form .form_label label {
+    font-size: 1.35rem;
+    font-weight: 500;
+  }
+  #form_login .form .form_label label {
+    font-size: 1.36rem;
+    font-weight: 600;
+  }
+  #form .form .form_supplemental {
+    margin-bottom: 0.74rem;
+    font-size: 1.06rem;
+    margin-top: 0.92rem;
+  }
+  #form .form .alert {
+    color: #ff0000;
+    margin-top: 0.92rem;
+    margin-bottom: 0.74rem;
+    font-size: 1.06rem;
+    font-weight: 200;
+  }
+  #form .form .form_input input {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    font-size: 1.08rem;
+    font-weight: 400;
+    height: 1.7rem;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    border-bottom: 2px solid #4b4b4b;
+    border-radius: 0.18rem;
+    margin-bottom: 0.8rem;
+    color: #4b4b4b;
+  }
+  #form_login .form .form_input input {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    font-size: 1.234rem;
+    font-weight: 400;
+    height: 1.57rem;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    border-bottom: 2px solid #4b4b4b;
+    border-radius: 0.18rem;
+    margin-bottom: 0.8rem;
+    color: #4b4b4b;
+  }
+  #form .form .form_input input:-internal-autofill-selected {
+    background-color: #fff !important;
+  }
+  #form_login .form .form_input input:-internal-autofill-selected {
+    background-color: #fff !important;
+  }
+  #form .form .form_input input:-webkit-autofill {
+    background-color: #fff !important;
+  }
+  #form_login .form .form_input input:-webkit-autofill {
+    background-color: #fff !important;
+  }
+  #form .form .form_input input.narrow {
+    width: 10rem;
+  }
+  #form .form .form_input input.middle {
+    width: 17rem;
+  }
+  #form_login .form .form_input input.middle {
+    width: 18.33rem;
+  }
+  #form .form .form_input input.wide {
+    width: 24rem;
+  }
+  #form .form .form_input input.placeholder {
+    font-size: 1.04rem;
+  }
+  #form .form .form_input input.red {
+    border-bottom: 2px solid #ff0000;
+  }
+  #form .conf .form_checkbox {
+    display: flex;
+    margin-top: 0.66rem;
+  }
+  #form .conf .form_checkbox .checkbox {
+    margin-top: 0.05rem;
+  }
+  #form .conf .form_checkbox .checkbox input {
+    width: 1.04rem;
+    height: 1.04rem;
+    border: 1px solid #4b4b4b;
+    margin-top: 0.04rem;
+  }
+  #form .conf .form_checkbox .text {
+    margin-left: 0.4rem;
+    font-size: 1.092rem;
+  }
+  #form .form .form_radio_buttons {
+    margin-top: 0.79rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container {
+    display: flex;
+    margin-bottom: 0.45rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container .radio_button input {
+    width: 1.05rem;
+    height: 1.05rem;
+    border: 1px solid #4b4b4b;
+    margin-top: 0.04rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container .text {
+    margin-left: 0.29rem;
+    font-size: 1.0337rem;
+  }
+  #form .info_container {
+    margin-bottom: 0.77rem;
+  }
+  #form .info_container .info {
+    font-size: 1.23rem;
+    margin-bottom: 1rem;
+  }
+  #form .info_container .info .colon {
+    margin-right: 0.2rem; 
+    margin-left: 0.05rem; 
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  #form .info_container .products_to_buy {
+    margin-top: 1.4rem;
+    margin-bottom: 1.89rem;
+  }
+  #form .info_container .products_to_buy .info_title .title {
+    font-size: 1.173rem;
+    margin-bottom: 0.88rem;
+    margin-top: 2.4rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy {
+    display: flex;
+    margin-bottom: 1.2rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .left {
+    margin-right: 0.6rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .image {
+    margin-right: 0.5rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .image img {
+    width: 6rem;
+    height: 6rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .name {
+    font-size: 1.13rem;
+    margin-bottom: 1.1rem;
+    margin-top: 0.388rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .price {
+    font-size: 1.035rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .quantity {
+    font-size: 1.03rem;
+    margin-bottom: 0.3rem;
+    margin-top: 1.5rem;
+  }
+  #form .submit {
+    margin-top: 3.08rem;
+    margin-bottom: 2.2rem;
+  }
+  #form .cart {
+    margin-top: 4.7rem;
+  }
+  #form_login .submit {
+    margin-top: 1.1rem;
+  }
+  #form_mod_done .submit_mod_done {
+    margin-top: 2.21rem;
+  }
+  #form .submit .button input, #form_login .submit .button input {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.47rem;
+    padding-bottom: 0.47rem;
+    padding-right: 0.64rem;
+    padding-left: 0.64rem;
+    border-radius: 0.3rem;
+    font-size: 1.03rem;
+    line-height: 1.3rem;
+    margin-bottom: 1.7rem;
+  }
+  #form_mod_done .submit_mod_done .button input {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.47rem;
+    padding-bottom: 0.47rem;
+    padding-right: 0.64rem;
+    padding-left: 0.64rem;
+    border-radius: 0.3rem;
+    font-size: 1.03rem;
+    line-height: 1.3rem;
+    margin-bottom: 0.4rem;
+  }
+  #form .table_container {
+    margin-top: 5.4rem;
+    margin-bottom: 0rem;
+  }
+  #form .table_container table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  #form .table_container table tr td {
+    font-size: 1.175rem;
+    padding-right: 1.3rem;
+    padding-bottom: 2.1rem;
+  }
+  #form .table_container table tr td:last-child {
+    padding-right: 0;
+  }
+  #form .table_container table tr:nth-child(1) td {
+    font-weight: bold;
+    font-size: 1.29rem;
+    padding-bottom: 2.64rem;
+  }
+  #form .table_container table tr .img {
+    width: 21%;
+  }
+  #form .table_container table tr .img img {
+    width: 6.2rem;
+  } 
+
+  #form .table_container table tr .name {
+    width: 28%;
+    font-size: 1.44rem;
+    word-break: break-all;
+  }
+  #form .table_container table tr .price {
+    width: 20%;
+    font-size: 1.4rem;
+  }
+  #form .table_container table tr .num {
+    font-size: 1.4rem;
+    width: 15%;
+  }
+  #form .table_container table tr .shokei {
+    width: 18%;
+    font-size: 1.4rem;
+  }
+  #form .table_container table tr .shokei input {
+    width: 6rem;
+  }
+  #form .table_container table tr .delete {
+    width: 9%;
+  }
+  #form .table_container table tr .delete input {
+    width: 1.4rem;
+  }
+  #form .table_container .total {
+    font-size: 1.366rem;
+    margin-top: 1.6rem;
+  }
+  #form .table_container .total .colon {
+    margin-left: 0.2rem;
+    margin-right: 0.3rem;
+  }
+  #link {
+    margin-top: 1.65rem;
+    margin-bottom: 4rem;
+  }
+  #link .anchor {
+    font-size: 1.11rem;
+  }
+  #not_resistered {
+    margin-top: 1.39rem;
+  }
+  #not_resistered .title {
+    font-size: 1.234rem;
+    font-weight: 600;
+  }
+  #not_resistered .title .underline {
+    border-bottom: double 3px #4b4b4b;
+  }
+  #not_resistered .message {
+    font-size: 1.099rem;
+    margin-top: 1.25rem;
+  }
+  #not_resistered .link {
+    margin-top: 1.26rem;
+  }
+  #not_resistered .link a {
+    font-size: 1.168rem;
+  }
+
+  /* -- reading -- */
+  #text {
+    margin-bottom: -0.44rem;
+  }
+  #text .text_title {
+    margin-top: 4.6rem;
+    margin-bottom: 5rem;
+  }
+  #text .text_title h2 {
+    font-size: 3.091rem;
+    font-weight: 600;
+  }
+  #text .contents .content {
+    margin-bottom: 4.6rem;
+  }
+  #text .contents .content .content_title {
+    margin-top: 2rem;
+    margin-bottom: 1.7rem;
+  }
+  #text .contents .content .content_title h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  #text .contents .content .content_title h3 .top_number {
+    margin-right: 0.28rem;
+  }
+  #text .contents .content .content_title h3 .chapter_number {
+
+  margin-right: 0.8rem;
+  }
+  #text .contents .content .paragraph {
+    margin-top: 1.6rem;
+  }
+  #text .contents .content .paragraph p {
+    font-size: 1.117rem;
+    font-weight: 100;
+    line-height: 1.93rem;
+    margin-bottom: 1rem;
+  }
+  #text .contents .content .paragraph p .bracket {
+    margin-left: 0.1rem;
+    margin-right: 0.3rem;
+    font-size: 1.2rem;
+  }
+  #text .contents .content .article .article_title {
+    margin-top: 3.76rem;
+    margin-bottom: 2.18rem;
+  }
+  #text .contents .content .article .article_title h4 {
+    font-size: 1.424rem;
+    font-weight: 600;
+  }
+  #text .contents .content .article .description p {
+    font-size: 1.117rem;
+    font-weight: 100;
+    line-height: 1.93rem;
+    margin-bottom: 1rem;
+  }
+  #text .contents .content .article .general_rule_container .description .general_rule .party {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.21rem;
+  }
+  #text .contents .content .article .general_rule_container .description .general_rule .explanation {
+    font-size: 1.117rem;
+    font-weight: 100;
+    line-height: 1.93rem;
+    margin-bottom: 1.1rem;
+  } 
+  #text .contents .content .article .list {
+    margin-top: 2.5rem;
+  }
+  #text .contents .content .article .list ul {
+    list-style: none;
+  }
+  #text .contents .content .article .list ul li {
+    font-size: 1.117rem;
+    font-weight: 100;
+    line-height: 1.93rem;
+    margin-bottom: 1.1rem;
+  }
+
+  /* -- error -- */
+  #error {
+    margin-top: 14rem;
+  }
+  #error .message {
+    text-align: center;
+    font-size: 1.48rem;
+    margin-bottom: 2.5rem;
+  }
+  #error .message_sub {
+    text-align: center;
+    font-size: 1.15rem;
+  }  
+  #error .submit {
+    margin-top: 3.97rem;
+  }
+  #error .submit .button {
+    margin-bottom: 1.1rem;
+    margin-left:  auto;
+    width: 10rem;
+    margin-right: auto;
+  }
+  #error .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.04rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.35rem;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    border-radius: 0.24rem;
+    line-height: 1.3rem;
+  }
+  #error .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+
+  /* - footer - */
+  #footer {
+    width:  100%;
+    height: 2.01rem;
+    margin-top: auto;
+    text-align: center;
+    padding-bottom: 0.26rem;
+  }
+  .footer_margin {
+    padding-bottom: 1.2rem;
+  }
+  #footer p {
+    font-size: 1.275rem;
+    font-weight: bold;
+  }
+  #footer span {
+    margin-right: 0.235rem;
+  }
+
+}
+/* - PC - */
+@media (min-width: 1023px) {
+
+  /* general */ 
+  html {
+    color: #4b4b4b;
+    width: 100%;
+    font-size: 15px;
+    height: 100%;
+  }
+  body {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    margin: 0 auto;
+    margin-bottom: 0;
+    position: relative;
+    height: 100%;
+    user-select:none;
+  }
+  #wrap {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+    position: relative;
+    box-sizing: border-box;
+    /* height: 100vh; */
+    overflow: auto;
+  }
+  a, a:visited {
+    color: #1a0dab;
+    text-decoration: none;
+  }
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  }
+  input:focus {
+    outline: none;
+  }
+  ::selection {
+    background: #fff;
+    color: #4b4b4b;
+  }
+  ::-moz-selection {
+    background: #fff;
+    color: #4b4b4b;
+  }
+
+  /* - header - */
+  #header {
+    display: flex;
+    justify-content: flex-end;
+    width: 87.7%;
+    margin: auto;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+  }
+  #header .flex_item {
+    margin-top: 0.9rem;
+  }
+  #header .flex_item:first-child {
+    color: #4b4b4b;
+    margin-right: auto;
+    line-height: 3.9rem;
+    font-size: 1.27rem;
+    font-weight: 500;
+  }
+  #header .flex_item:nth-child(3) {
+    margin-left: 0.86rem;
+  }
+  #header .flex_item:last-child {
+    margin-left: 1.25rem;
+  }
+  #header .flex_item .icon {
+    width: 3.78rem;
+  }
+  #header .flex_item a img[alt="mypage"] {  
+    margin-right: -0.69rem;
+  }
+
+  /* - main - */
+  #main {
+    width: 86.7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  /* -- index -- */
+  #index_title, #products {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #index_title h1 {
+    font-size: 7.97rem;
+    font-weight: 800;
+    margin-top: 3.3rem;
+    margin-bottom: 0.84rem;
+    text-align:  center;
+  }
+  #index_title h2 {
+    font-size: 1.9rem;
+    margin-top: 0.89rem;
+    font-weight: 400;
+    font-family:'Times New Roman';
+    text-align: center;
+    letter-spacing: 0.001rem;
+  }
+  #products { 
+    margin-top: 2rem;
+    position: relative;
+  }
+  #products h2 {
+    margin-top: 3.1rem;
+    font-size: 1.76rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  #products #cat_id {
+    font-family:'Times New Roman',Century,'HG明朝E','ヒラギノ明朝 Pro W3','Yu Mincho', serif;
+    font-size: 1.399rem;
+    margin-top: 1.61rem;
+    background-color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+    padding-bottom: 0.2rem;
+    padding-left: 0.2rem;
+    width: 12rem;
+    color: #4b4b4b;
+    outline: none;
+    background-image: url('../icon/arrow_down.svg');
+    background-size: 0.86rem;
+    background-position: right 0.2rem top 0.49rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    line-height: 1.54rem;
+  }
+  #products .select_box {
+    width: 12rem;
+    margin-left:  auto;
+    margin-right:  auto;
+    border-bottom: 2px solid #4b4b4b;
+    margin-bottom: 2.1rem;
+  }
+  #products #cat_id:focus {
+    outline: none;
+  }
+  #products #cat_id option {
+    text-align: center;
+  }
+  #products .prompt {
+    margin-top: 0rem;
+    font-size: 1.18rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  #products #pro_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* -- contents_center -- */
+  #product_title h2, #product p {
+    text-align: center;
+  }
+  #product_title {
+    margin-top: 3.7rem;
+    margin-bottom: 2.96rem;
+  }
+  #product_title h2 {
+    font-size: 2.89rem;
+    font-weight: 600;
+  }
+  #product .product_container {
+    display: flex;
+    width: 40.5rem;
+    margin: auto;
+  }
+  #product .product_container .left {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #product .product_container .left .img img {
+    display: inline-block;
+    margin: auto;
+    width: 19.1rem;
+  }
+  #product .product_container .right {
+    margin-left: 1.8rem;
+    margin-right:  0;
+    width: 19rem;
+  }
+  #product .product_container .right .name {
+    font-size: 2.2rem;
+    letter-spacing: -1px;
+    font-weight: 600;
+    margin-top: 1.3rem;
+  } 
+  #product .product_container .right .price {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 1.72rem;
+  } 
+  #product .submit {
+    margin-top: 3.1rem;
+  }
+  #product .submit .button {
+    margin-bottom: 1.9rem;
+  }
+  #product .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    border-radius: 0.34rem;
+    line-height: 1.3rem;
+  }
+  #product .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+  #product .submit .button input {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.32rem;
+    padding-bottom: 0.23rem;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    border-radius: 0.34rem;
+    font-size: 0.98rem;
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  #contents_center .message_container .message {
+    text-align: center;
+    font-size: 1.45rem;
+    margin-top: 9.66rem;
+  }
+  #contents_center .message_container_done .message {
+    text-align: center;
+    font-size: 1.56rem;
+    margin-top: 9.15rem;
+  }
+  #contents_center .message_container_done .message_sub_container {
+    margin-top: 3.699rem;
+  }
+  #contents_center .message_container_done .message_sub_container .message_sub {
+    text-align: center;
+    font-size: 1.168rem;
+    margin-bottom: 1.6rem;
+  }
+  #contents_center .submit {
+    margin-top: 2.41rem;
+  }
+  #contents_center .submit .button {
+    margin-bottom: 2.37rem;
+    text-align: center;
+  }
+  #contents_center .submit_mod_done .button {
+    margin-bottom: 1.14rem;
+    text-align: center;
+  }
+  #contents_center .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.03rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.55rem;
+    padding-right: 0.55rem;
+    padding-left: 0.55rem;
+    border-radius: 0.29rem;
+    line-height: 1.3rem;
+  }
+  #contents_center .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+
+  /* -- form -- */
+  #form_title {
+    margin-top: 2.9rem;
+    margin-bottom: 3.3rem;
+  }
+  #form_title h2 {
+    font-size: 3.35rem;
+    font-weight: 600;
+  }
+  #form_login_title {
+    margin-top: 1.9rem;
+    margin-bottom: 2.72rem;
+  }
+  #form_login_title h2 {
+    font-size: 3.24rem;
+    font-weight: 600;
+  }
+  #mypage_title {
+    margin-top: 2.7rem;
+    margin-bottom: 3.2rem;
+  }
+  #mypage_title h2 {
+    font-size: 3.2rem;
+    font-weight: 600;
+  }
+  #cartlook_title {
+    margin-top: 4.4rem;
+    margin-bottom: 6.2rem;
+  }
+  #cartlook_title h2 {
+    font-size: 3.23rem;
+    font-weight: 600;
+  }
+  #login_failed_message .message {
+    font-size: 1.096rem;
+    color: #ff0000;
+    font-weight: 200;
+    margin-top: -1.1rem;
+    margin-bottom: 1.6rem;
+  }
+  #form .fill_all_message {
+    margin-bottom: 3rem;
+    margin-top: 3.94rem;
+  }
+  #form .fill_all_message .message {
+    font-size: 1.198rem;
+    font-weight: bold;
+  }
+  #form .fill_pass_message {
+    margin-bottom: 2.3rem;
+    margin-top: 4.6rem;
+  }
+  #form .fill_pass_message .message {
+    font-size: 1.233rem;
+  }
+  #form .fill_pass_message .message span {
+    border-bottom: double 0.333rem #4b4b4b;
+    font-weight: bold;
+  }
+  #form .message_to_confirm {
+    margin-bottom:  2rem;
+    margin-top: 2.8rem;
+  }
+  #form .message_to_confirm .message {
+    font-size: 1.26rem;
+  }
+  #form .form {
+    margin-bottom: 2.31rem;
+  }
+  #form_login .form {
+    margin-bottom: 0.86rem;
+  }
+  #form .form .form_label {
+    margin-bottom: 0.5rem;
+  }
+  #form_login .form .form_label {
+    margin-bottom: 0.49rem;
+  }
+  #form .form .form_label label {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  #form_login .form .form_label label {
+    font-size: 1.345rem;
+    font-weight: 600;
+  }
+  #form .form .form_supplemental {
+    margin-bottom: 0.8rem;
+    font-size: 1.078rem;
+    margin-top: 0.91rem;
+  }
+  #form .form .alert {
+    color: #ff0000;
+   margin-top: 0.91rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.078rem;
+    font-weight: 200; 
+  }
+  #form .form .form_input input {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    font-size: 1.13rem;
+    font-weight: 400;
+    height: 1.7rem;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    border-bottom: 2px solid #4b4b4b;
+    border-radius: 0.18rem;
+    margin-bottom: 0.8rem;
+    color: #4b4b4b;
+    padding-bottom: 0.001rem;
+  }
+  #form_login .form .form_input input {
+    font-family:'Times New Roman',Century,'ヒラギノ明朝 Pro W3','HG明朝E','Yu Mincho', serif;
+    font-size: 1.29rem;
+    font-weight: 400;
+    height: 1.65rem;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+    border-bottom: 2px solid #4b4b4b;
+    border-radius: 0.18rem;
+    margin-bottom: 0.8rem;
+    color: #4b4b4b;
+  }
+  #form .form .form_input input:-internal-autofill-selected {
+    background-color: #fff !important;
+  }
+  #form_login .form .form_input input:-internal-autofill-selected {
+    background-color: #fff !important;
+  }
+  #form .form .form_input input:-webkit-autofill {
+    background-color: #fff !important;
+  }
+  #form_login .form .form_input input:-webkit-autofill {
+    background-color: #fff !important;
+  }
+  #form .form .form_input input.narrow {
+    width: 10rem;
+  }
+  #form .form .form_input input.middle {
+    width: 17rem;
+  }
+  #form_login .form .form_input input.middle {
+    width: 19.68rem;
+  }
+  #form .form .form_input input.wide {
+    width: 24rem;
+  }
+  #form .form .form_input input.placeholder {
+    font-size: 1.04rem;
+  }
+  #form .form .form_input input.red {
+    border-bottom: 2px solid #ff0000;
+  }
+  #form .conf .form_checkbox {
+    display: flex;
+    margin-top: 0.66rem;
+  }
+  #form .conf .form_checkbox .checkbox {
+    margin-top: 0.05rem;
+  }
+  #form .conf .form_checkbox .checkbox input {
+    width: 1.04rem;
+    height: 1.04rem;
+    border: 1px solid #4b4b4b;
+    margin-top: 0.04rem;
+  }
+  #form .conf .form_checkbox .text {
+    margin-left: 0.49rem;
+    font-size: 1.09rem;
+  }
+  #form .form .form_radio_buttons {
+    margin-top: 0.79rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container {
+    display: flex;
+    margin-bottom: 0.45rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container .radio_button input {
+    width: 1.05rem;
+    height: 1.05rem;
+    border: 1px solid #4b4b4b;
+    margin-top: 0.04rem;
+  }
+  #form .form .form_radio_buttons .radio_button_container .text {
+    margin-left: 0.29rem;
+    font-size: 1.0737rem;
+  }
+  #form .info_container {
+    margin-bottom: 0.71rem;
+  }
+  #form .info_container .info {
+    font-size: 1.2rem;
+    margin-bottom: 1.04rem;
+  }
+  #form .info_container .info .colon {
+    margin-right: 0.2rem; 
+    margin-left: 0.05rem; 
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  #form .info_container .products_to_buy {
+    margin-top: 1.4rem;
+    margin-bottom: 1.77rem;
+  }
+  #form .info_container .products_to_buy .info_title .title {
+    font-size: 1.197rem;
+    margin-bottom: 1.17rem;
+    margin-top: 2.4rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy {
+    display: flex;
+    margin-bottom: 1.2rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .left {
+    margin-right: 0.6rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .image {
+    margin-right: 0.5rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .image img {
+    width: 6.9rem;
+    height: 6.9rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .name {
+    font-size: 1.167rem;
+    margin-bottom: 1.1rem;
+    margin-top: 0.288rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .price {
+    font-size: 1.167rem;
+  }
+  #form .info_container .products_to_buy .product_to_buy .quantity {
+    font-size: 1.167rem;
+    margin-bottom: 0.3rem;
+    margin-top: 1.88rem;
+  }
+  #form .submit {
+    margin-top: 3.2rem;
+    margin-bottom: 2.5rem;
+  }
+  #form .cart {
+    margin-top: 4.86rem;
+  }
+  #form_login .submit {
+    margin-top: 0.97rem;
+  }
+  #form_mod_done .submit_mod_done {
+    margin-top: 2.2rem;
+  }
+  #form .submit .button input, #form_login .submit .button input {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.42rem;
+    padding-bottom: 0.42rem;
+    padding-right: 0.57rem;
+    padding-left: 0.57rem;
+    border-radius: 0.35rem;
+    font-size: 1.07rem;
+    line-height: 1.3rem;
+    margin-bottom: 1.7rem;
+  }
+  #form_mod_done .submit_mod_done .button input {
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.42rem;
+    padding-bottom: 0.47rem;
+    padding-right: 0.57rem;
+    padding-left: 0.57rem;
+    border-radius: 0.35rem;
+    font-size: 1.07rem;
+    line-height: 1.3rem;
+  }
+  #form .table_container {
+    margin-top: 5.4rem;
+    margin-bottom: 0rem;
+  }
+  #form .table_container table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  #form .table_container table tr td {
+    font-size: 1.175rem;
+    padding-right: 1.3rem;
+    padding-bottom: 1.5rem;
+  }
+  #form .table_container table tr td:last-child {
+    padding-right: 0;
+  }
+  #form .table_container table tr:nth-child(1) td {
+    font-weight: bold;
+    font-size: 1.34rem;
+    padding-bottom: 2.8rem;
+  }
+  #form .table_container table tr .img {
+    width: 20.5%;
+  }
+  #form .table_container table tr .img img {
+    width: 7.91rem;
+  } 
+
+  #form .table_container table tr .name {
+    width: 28%;
+    font-size: 1.5rem;
+    word-break: break-all;
+  }
+  #form .table_container table tr .price {
+    width: 20%;
+    font-size: 1.48rem;
+  }
+  #form .table_container table tr .num {
+    font-size: 1.48rem;
+    width: 15%;
+  }
+  #form .table_container table tr .shokei {
+    width: 18%;
+    font-size: 1.48rem;
+  }
+  #form .table_container table tr .shokei input {
+    width: 6rem;
+  }
+  #form .table_container table tr .delete {
+    width: 9%;
+  }
+  #form .table_container table tr .delete input {
+    width: 1rem;
+  }
+  #form .table_container .total {
+    font-size: 1.4rem;
+    margin-top: 1.258rem;
+  }
+  #form .table_container .total .colon {
+    margin-left: 0.2rem;
+    margin-right: 0.3rem;
+  }
+  #link {
+    margin-top: 1.65rem;
+    margin-bottom: 4.4rem;
+  }
+  #link .anchor {
+    font-size: 1.166rem;
+  }
+  #not_resistered {
+    margin-top: 1rem;
+  }
+  #not_resistered .title {
+    font-size: 1.234rem;
+    font-weight: 600;
+  }
+  #not_resistered .title .underline {
+    border-bottom: double 3px #4b4b4b;
+  }
+  #not_resistered .message {
+    font-size: 1.1rem;
+    margin-top: 1.341rem;
+  }
+  #not_resistered .link {
+    margin-top: 1.39rem;
+  }
+  #not_resistered .link a {
+    font-size: 1.22rem;
+  }
+
+  /* -- reading -- */
+  #text {
+    margin-bottom: -0.99rem;
+  }
+  #text .text_title {
+    margin-top: 4.98rem;
+    margin-bottom: 5.8rem;
+  }
+  #text .text_title h2 {
+    font-size: 3.16rem;
+    font-weight: 600;
+  }
+  #text .contents .content {
+    margin-bottom: 4.6rem;
+  }
+  #text .contents .content .content_title {
+    margin-top: 3.499rem;
+    margin-bottom: 1.7rem;
+  }
+  #text .contents .content .content_title h3 {
+    font-size: 1.797rem;
+    font-weight: 600;
+  }
+  #text .contents .content .content_title h3 .top_number {
+    margin-right: 0.28rem;
+  }
+  #text .contents .content .content_title h3 .chapter_number {
+
+  margin-right: 0.8rem;
+  }
+  #text .contents .content .paragraph {
+    margin-top: 1.6rem;
+  }
+  #text .contents .content .paragraph p {
+    font-size: 1.169rem;
+    font-weight: 100;
+    line-height: 1.86rem;
+    margin-bottom: 0.57rem;
+  }
+  #text .contents .content .paragraph p .bracket {
+    margin-left: 0.1rem;
+    margin-right: 0.3rem;
+    font-size: 1.2rem;
+  }
+  #text .contents .content .article .article_title {
+    margin-top: 3.76rem;
+    margin-bottom: 2.1rem;
+  }
+  #text .contents .content .article .article_title h4 {
+    font-size: 1.466rem;
+    font-weight: 600;
+  }
+  #text .contents .content .article .description p {
+    font-size: 1.117rem;
+    font-weight: 100;
+    line-height: 1.86rem;
+    margin-bottom: 1rem;
+  }
+  #text .contents .content .article .general_rule_container .description .general_rule .party {
+    font-weight: bold;
+    font-size: 1.17rem;
+    margin-bottom: 0.16rem;
+  }
+  #text .contents .content .article .list {
+    margin-top: 2.5rem;
+  }
+  #text .contents .content .article .list ul {
+    list-style: none;
+  }
+  #text .contents .content .article .list ul li {
+    font-size: 1.117rem;
+    font-weight: 100;
+    line-height: 1.86rem;
+    margin-bottom: 0.37rem;
+  }
+
+  /* -- error -- */
+  #error {
+    margin-top: 14rem;
+  }
+  #error .message {
+    text-align: center;
+    font-size: 1.48rem;
+    margin-bottom: 2.5rem;
+  }
+  #error .message_sub {
+    text-align: center;
+    font-size: 1.15rem;
+  }  
+  #error .submit {
+    margin-top: 3.97rem;
+  }
+  #error .submit .button {
+    margin-bottom: 1.1rem;
+    margin-left:  auto;
+    width: 10rem;
+    margin-right: auto;
+  }
+  #error .submit .button a {
+    color: #4b4b4b;
+    font-size: 1.04rem;
+    border: 1px solid #4b4b4b;
+    padding-top: 0.38rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.35rem;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    border-radius: 0.24rem;
+    line-height: 1.3rem;
+  }
+  #error .submit .button a:clicked {
+    color: #4b4b4b;
+    font-size: 1.08rem;
+    border: 1px solid #4b4b4b;
+  }
+
+  /* - footer - */
+  #footer {
+    width:  100%;
+    height: 2rem;
+    margin-top: auto;
+    text-align: center;
+    padding-bottom: 0.27rem;
+  }
+  .footer_margin {
+    padding-bottom: 0.98rem;
+  }
+  #footer p {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  #footer span {
+    margin-right: 0.235rem;
+  }
+
+} 
