@@ -25,17 +25,17 @@ try{
   <body>
     <div id="wrap">
       <div id="header">
-				<?php if(isset($_SESSION['mb_login'])==false) { ?>
-				<div class="flex_item wilcome">ようこそ ゲスト様</div>
-				<div class="flex_item"><a href="index.php"><img class="icon" src="img_icon.php?img=<?=$img_home ?>" alt="home"></a></div>
-				<div class="flex_item"><a href="member_login.php"><img class="icon" src="img_icon.php?img=<?=$img_signin ?>" alt="signin" ></a></div>
-				<div class="flex_item"><a href="store_cartlook.php"><img class="icon" src="img_icon.php?img=<?=$img_cart ?>" alt="cart"></a></div>
-				<?php } else { ?>
-				<div class="flex_item welcome" >ようこそ <?php echo $_SESSION['name']; ?>様</div>
-				<div class="flex_item"><a href="index.php"><img class="icon" src="img_icon.php?img=<?=$img_home ?>" alt="home" ></a></div>
-				<div class="flex_item"><a href="mypage.php"><img class="icon" src="img_icon.php?img=<?=$img_mypage ?>" alt="mypage"></a></div>
-				<div class="flex_item"><a href="store_cartlook.php"><img class="icon" src="img_icon.php?img=<?=$img_cart ?>" alt="cart"></a></div>
-				<?php } ?>
+	<?php if(isset($_SESSION['mb_login'])==false) { ?>
+	<div class="flex_item wilcome">ようこそ ゲスト様</div>
+	<div class="flex_item"><a href="index.php"><img class="icon" src="img_icon.php?img=<?=$img_home ?>" alt="home"></a></div>
+	<div class="flex_item"><a href="member_login.php"><img class="icon" src="img_icon.php?img=<?=$img_signin ?>" alt="signin" ></a></div>
+	<div class="flex_item"><a href="store_cartlook.php"><img class="icon" src="img_icon.php?img=<?=$img_cart ?>" alt="cart"></a></div>
+	<?php } else { ?>
+	<div class="flex_item welcome" >ようこそ <?php echo $_SESSION['name']; ?>様</div>
+	<div class="flex_item"><a href="index.php"><img class="icon" src="img_icon.php?img=<?=$img_home ?>" alt="home" ></a></div>
+	<div class="flex_item"><a href="mypage.php"><img class="icon" src="img_icon.php?img=<?=$img_mypage ?>" alt="mypage"></a></div>
+	<div class="flex_item"><a href="store_cartlook.php"><img class="icon" src="img_icon.php?img=<?=$img_cart ?>" alt="cart"></a></div>
+	<?php } ?>
       </div>
       <div id="main">
         <?php
