@@ -9,7 +9,7 @@ try {
 	session_start();
 	$_SESSION=array();
 	if(isset($_COOKIE[session_name()])==true) {
-			setcookie(session_name(),'',time()-42000,'/');
+		setcookie(session_name(),'',time()-42000,'/');
 	}
 	session_destroy();
 ?>
@@ -50,33 +50,33 @@ try {
 					</div>
 				</div>
 				<?php	} catch(Exception $e) { ?>
-					<head>
-						<meta charset="utf-8">
-						<title>SSRS || Kashikoi Ulysses Official Store</title>
-						<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-						<link rel="icon" href="img_favicon.php?img=<?=$img_favicon ?>">
-						<link rel="stylesheet" href="css/reset.css">
-						<link rel="stylesheet" href="css/common.css">
-						<script src="js/jquery-3.4.1.min.js"></script>
-						<script src="js/common.js"></script>
-					</head>
-					<body>
-						<div id="wrap">
-							<div id="main">
-								<div id="error">
-									<p class="message">ご迷惑をお掛けし、大変申し訳ございません。</p>
-									<p class="message_sub">ただいま障害により、本ページにアクセスすることができません。</p>
-									<div class="submit">
-										<p class="button"><a href="index.php">商品一覧に戻る</a></p>
-									</div>
+				<head>
+					<meta charset="utf-8">
+					<title>SSRS || Kashikoi Ulysses Official Store</title>
+					<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+					<link rel="icon" href="img_favicon.php?img=<?=$img_favicon ?>">
+					<link rel="stylesheet" href="css/reset.css">
+					<link rel="stylesheet" href="css/common.css">
+					<script src="js/jquery-3.4.1.min.js"></script>
+					<script src="js/common.js"></script>
+				</head>
+				<body>
+					<div id="wrap">
+						<div id="main">
+							<div id="error">
+								<p class="message">ご迷惑をお掛けし、大変申し訳ございません。</p>
+								<p class="message_sub">ただいま障害により、本ページにアクセスすることができません。</p>
+								<div class="submit">
+									<p class="button"><a href="index.php">商品一覧に戻る</a></p>
 								</div>
 							</div>
-							<div id="footer">
-								<p><span>©</span><span>2021</span><span>Kashikoi</span><span>Ulysses</span></p>
-							</div>
 						</div>
-					</body>	
-					<?php	
+						<div id="footer">
+							<p><span>©</span><span>2021</span><span>Kashikoi</span><span>Ulysses</span></p>
+						</div>
+					</div>
+				</body>	
+				<?php	
 					exit();
 				}?>
 			</div>
