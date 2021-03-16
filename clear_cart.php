@@ -81,7 +81,7 @@ try{
 				}?>
 			</div>
 			<div id="footer">
-				<p><span>©</span><span>2021</span><span>Kashikoi</span><span>Ulysses</span></p>
+				<p><span>©</span><span>2021</span><span>Kashikoi</span><span>Ulysses</span></p> 
 			</div>
 		</div>
 	</body>
