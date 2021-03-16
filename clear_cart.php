@@ -25,7 +25,7 @@ try{
 		<script src="js/jquery-3.4.1.min.js"></script>
 		<script src="js/common.js"></script>
 	</head>
-	<body>
+	<body> 
 		<div id="wrap">
 			<div id="header">
         <?php if(isset($_SESSION['mb_login'])==false) { ?>
